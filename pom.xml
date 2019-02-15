@@ -14,6 +14,15 @@
     <artifactId>fastpowered-application-eureka</artifactId>
     <packaging>jar</packaging>
 
-    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fastpowered</groupId>
+            <artifactId>fastpowered-starter-raft</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
